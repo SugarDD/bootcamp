@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ISCP Employee Registration Form</title>
+    <link rel="stylesheet" href="registration.css" />
+  </head>
+  <style>
+    label
+ {
+      display: inline-block;
+      margin-bottom: 5px;
+    }
+    label {
+      width: 100px;
+    }
+      
+    .center2{
+      
+      text-align: center;
+    
+    }
+    
+  </style>
+  <body>
+    <h1 style="text-align: center">ISCP Employee Registration Form</h1>
+    <img
+      src="https://images-ext-1.discordapp.net/external/OneXHSHmIZDOkehftIOZKkdxxLmNtTTTm7WT497Uv3A/https/upload.wikimedia.org/wikipedia/commons/d/d4/ISCP_Logo.png?width=655&height=655"
+      width="200px"
+      alt="logo"
+
+    />
+    <iframe
+     width="400"
+      height="200"
+      src="https://www.youtube.com/embed/aCUhfPAyDHY"
+      title="YouTube video player"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      allowfullscreen
+      class="center2"
+    ></iframe>
+    <h1 style="font-size: 20px">Name of the Applicants</h1>
+    <form>
+      <label for="first_name">First Name:</label>
+      <input
+        type="first_name"
+        id="first_name"
+        placeholder="ex. Juan"
+        style="width: 300px"
+        required
+      />
+      <label for="last_name">Last Name:</label>
+      <input
+        type="last_name"
+        id="first_name"
+        placeholder="ex. de la Cruz"
+        style="width: 300px"
+        required
+      />
+      <br />
+
+      <label for="Place_birth">Place of Birth:</label>
+      <input
+        type="text"
+        id="Place_birth"
+        placeholder="ex. Bacoor, Cavite"
+        style="width: 300px"
+      />
+      <label for="status"> Civil Status:</label>
+      <select name="status" id="status">
+        <option value="">Please select one:</option>
+        <option value="Single">Single forever</option>
+        <option value="Married">Married</option>
+        <option value="Taken">Taken pero available</option>
+        <option value="Pinagpalit">Pinagpalit sa panget</option>
+        <option value="Kabet">Kabet</option>
+      </select>
+      <br />
+      Date of Birth:<input type="date" /> Gender
+      <input type="radio" name="gender" />MALE
+      <input type="radio" name="gender" />FEMALE
+      <br />
+      <label for="Mother's maiden Name">Mother's maiden Name:</label>
+      <input
+        type="Mother's maiden Name"
+        id="Mother's maiden Name"
+        placeholder=""
+        style="width: 300px"
+      />
+      <br />
+      <label for="Father's Name"> Fathers Name:</label>
+      <input
+        type="Father's Name"
+        id="Father's Name"
+        name="Father's Name"
+        placeholder=""
+        style="width: 300px"
+      />
+      <h1 style="font-size: 20px">Contact Information</h1>
+      <label for="email">Email Address:</label>
+      <input
+        type="email"
+        id="email"
+        name="email"
+        placeholder="ex. delacruz@yahoo.com"
+        style="width: 100px"
+      />
+      Contact number(Mobile):
+      <input
+        type="contact number"
+        id="contact number"
+        name="contact"
+        placeholder="+639..."
+        style="width: 200px"
+        required
+      />
+      <label for="contact_number">Contact number(Tel:):</label>
+      <input
+        type="contact_number"
+        id="contact_number"
+        name="contact_number"
+        placeholder="optional"
+        style="width: 200px"
+      />
+      <br />
+      <h1 style="font-size: 20px">Address</h1>
+      <label for="Address">Residential Address:</label>
+      <textarea
+        name="Address"
+        id="Address"
+        style="width: 400px"
+        rows="5"
+      ></textarea>
+      <h1 style="font-size: 20px">Address</h1>
+      <label for="ID">SSS ID:</label>
+      <input
+        type="text"
+        name="id
+      "
+        id="id"
+        style="width: 200px"
+      />
+      <br />
+      <label for="PAG IBIG ID">PAG-IBIG:</label>
+      <input
+        type="text"
+        name="PAG IBIG ID
+      "
+        id="PAG IBIG ID"
+        style="width: 200px"
+      />
+      <br />
+      <label for="PhilHealthID">PhilHealth:</label>
+      <input
+        type="text"
+        name="PhilhealtID
+      "
+        id="PhilHealthID"
+        style="width: 200px"
+      />
+      <br />
+      <label for="valid">Upload 2x2 picture:</label>
+      <input type="file" name="valid" accept="image/*" />
+      <br />
+      <label for="gov id">Upload picture of government ID:</label>
+      <input type="file" name="gov id" accept="image/*" />
+      <h1 style="font-size: 20px">Account Information</h1>
+      <label for="username">Username:</label>
+      <input
+        type="text"
+        name="username"
+        id="username"
+        style="width: 200px"
+        placeholder="Enter username"
+      />
+      <br />
+      <label for="password">Password:</label>
+      <input
+        type="text"
+        name="password"
+        id="password"
+        style="width: 200px"
+        placeholder="Enter your password"
+      />
+      <br />
+      <label for="conpassword">Confirm Password:</label>
+      <input
+        type="text"
+        name="conpassword"
+        id="con_password"
+        style="width: 200px"
+        placeholder="Confirm your password"
+      />
+      <br />
+      <label for="profile_pic">Upload profile picture:</label>
+      <input type="file" name="profile_pic" accept="image/*" />
+      <br />
+      <strong
+        ><p>Have you experienced any of the ff. in the last 30 days?</p></strong
+      >
+      <input type="checkbox" name="couging" />Coughing
+      <input type="checkbox" name="Fever" />Fever
+      <input type="checkbox" name="Common cold" />Common Cold
+      <input type="checkbox" name="Bodyache" />Body Ache
+      <input type="checkbox" name="sore" />Sore Throat
+      <input type="checkbox" name="Tiredness" />Tiredness
+      <input type="checkbox" name="Smell" />Loss of Smell
+      <br>
+      <p>Give a short description about yourself:</p></strong>
+      <textarea name="descriptions" id="descriptions" placeholder="Describe yourself..." rows="10" style="width: 400px;"></textarea>
+      <input type="submit">
+    </form>
+  </body>
+</html>

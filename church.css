@@ -1,0 +1,44 @@
+body {
+  padding: 0%;
+  margin: 0;
+}
+ol {
+  list-style-type: none;
+  background-color: rgb(70, 130, 180);
+}
+li .nav-link {
+  color: white;
+}
+#minister {
+  font-size: 50px;
+  color: rgb(70, 130, 180);
+}
+#quote {
+  font-weight: 800;
+}
+.free {
+  color: rgb(70, 130, 180);
+}
+.link {
+  color: magenta;
+}
+#cross1 {
+  width: 200px;
+  margin-top: 20px;
+}
+#cross2 {
+  width: 200px;
+}
+.other {
+  margin-top: 20px;
+}
+footer {
+  color: rgb(160, 160, 160);
+  font-size: smaller;
+}
+.footer {
+  margin-top: 100px;
+}
+.list li {
+  list-style-position: inside;
+}

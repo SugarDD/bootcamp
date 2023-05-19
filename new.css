@@ -1,0 +1,141 @@
+body {
+  font-family: Tahoma;
+  margin: 0px;
+  background-image: url(https://thumbs.dreamstime.com/b/grainy-white-paper-surface-as-texture-background-close-up-macro-200678301.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  box-sizing: border-box;
+  padding: 0px;
+}
+ol {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0%;
+  overflow: hidden;
+  background-color: rgb(70, 130, 180);
+}
+li a {
+  text-decoration: none;
+  color: white;
+}
+li a:hover {
+  color: rgb(0, 0, 139);
+}
+ol li {
+  float: left;
+  display: block;
+  text-align: center;
+  padding: 5px 50px 5px 100px;
+  text-decoration: none;
+}
+.Save::before {
+  color: blue;
+}
+.Save:hover {
+  color: magenta;
+}
+
+.Save:visited {
+  color: orange;
+}
+.Save:active {
+  color: lime;
+}
+nav .center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: auto;
+  height: 100px;
+}
+.title {
+  text-align: center;
+  color: rgb(70, 130, 180);
+}
+#quote {
+  text-align: center;
+  font-weight: 600;
+}
+.pastor {
+  margin: 10px 0px 50px 400px;
+  max-width: 200px;
+}
+h2 {
+  float: right;
+  margin-top: 5px;
+  margin-right: 370px;
+  margin-bottom: 0px;
+  color: rgb(70, 130, 180);
+}
+
+h2 .Huell {
+  color: black;
+  font-size: small;
+}
+.mission {
+  text-align: center;
+  font-weight: 600;
+}
+
+table,
+td,
+th {
+  border: 1px dotted black;
+  border-collapse: collapse;
+  text-align: center;
+  width: auto;
+}
+table {
+  margin-left: auto;
+  margin-right: auto;
+}
+tr:nth-child(even) {
+  background-color: lightgray;
+}
+tr:hover {
+  background-color: rgb(228, 201, 152);
+}
+
+.cross1 {
+  float: left;
+  max-width: 100px;
+  margin-top: -150px;
+  margin-left: 200px;
+}
+.cross2 {
+  float: right;
+  max-width: 100px;
+  margin-top: -150px;
+  margin-right: 200px;
+}
+footer {
+  color: rgb(160, 160, 160);
+  text-align: center;
+  margin-top: 50px;
+  font-size: 10px;
+}
+div.gallerymain {
+  text-align: center;
+}
+div.gallery {
+  padding: 20px 20px;
+  margin: 20px 20px;
+  border: 1px solid #ccc;
+  width: 180px;
+  display: inline-block;
+  text-align: center;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
